@@ -6,26 +6,21 @@
 $basicColor = gray
 
 body
-  background #fff
+  background-color:#5f9ea0
   font-family: Arial, Helvetica, sans-serif
 
 header
-  background-color: #000
+  background-color: #fff
   width: 100vw  
-  padding: 10px
 
-h1
-input 
-  margin-left: 13.5%
+img 
+  width: 35vw
 
 h1 
-  font-size: 1rem
+  color: #fff
+  text-align: center
+  font-size: 1.5rem
   margin-top: 5%
-
-input 
-  width: 40%
-  margin-top: .5%
-  padding: 5px
 
 section 
   display: flex
@@ -34,26 +29,44 @@ section
   justify-content: center
 
 article 
+  position relative
   border: 1px solid $basicColor
   box-shadow: 2px 2px #e8e7e4
+  background-color: #fff
   padding: 15px
   margin: 3px
-  flex-basis: 30%
+  flex-basis: 90%
   height 40vh
 
 h2
 h3
   font-size: 14px
   color: $basicColor
+h3 
+  margin-left: 68%;
 
-button 
+h4 
+  text-align: center
+  padding: 40px 5px 5px 5px
+  line-height: 1.5
+a 
   background-color: red
   color: #fff
   padding: 5px
-  margin-left: 73%
+  position: absolute
+  bottom: 20px
+  right 20px
+  cursor pointer
+a
+a:hover 
+  text-decoration: none
 
-// Medium devices (tablets, 768px and up) @media (min-width: 768px) and (max-width:991px)
+a:hover 
+  background-color:#E8024F
 
-
-// Large devices (desktops, 992px and up) @media (min-width: 992px) 
+@media (min-width: 992px) 
+  article 
+    flex-basis: 30%
+  img 
+    width: 15vw
 
